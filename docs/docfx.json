@@ -1,0 +1,56 @@
+{
+  "metadata": [
+    {
+      "src": [
+        {
+          "cwd": "..",
+          "files": [
+            "**/**.csproj"
+          ]
+        }
+      ],
+      "dest": "api"
+    }
+  ],
+  "build": {
+    "content": [
+      {
+        "files": [
+          "api/**.yml",
+          "api/index.md"
+        ]
+      },
+      {
+        "files": [
+          "guides/**.md",
+          "guides/**/toc.yml",
+          "toc.yml",
+          "*.md"
+        ]
+      }
+    ],
+    "resource": [
+      {
+        "files": [
+          "images/**",
+          "**/snippets/**",
+          "favicon.ico"
+        ]
+      }
+    ], 
+    "globalMetadata": {
+      "_appTitle": "Victoria's Documentation",
+      "_appFooter": "© 2018 - 2020, Yucked. All rights reserved.",
+      "_appFaviconPath": "favicon.ico",
+      "_gitContribute": {
+        "repo": "https://github.com/Yucked/Victoria",
+        "branch": "v5"
+      }
+    },
+    "dest": "_site",
+    "template": [
+      "default",
+      "templates/material"
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+- name: Introduction
+  topicUid: Guides.Introduction
+- name: Getting Started
+  items:
+    - name: Setup
+      topicUid: Guides.GettingStarted.Setup
+    - name: Quick Start
+      topicUid: Guides.GettingStarted.QuickStart
+    - name: Bad Practice
+      topicUid: Guides.GettingStarted.BadPractice
+- name: Samples
+  items:
+    - name: Auto Play
+      topicUid: Guides.Samples.AutoPlay
+    - name: Exception Handling
+      topicUid: Guides.Samples.ExceptionHandling
+    - name: Auto Disconnect
+      topicUid: Guides.Samples.AutoDisconnect
+    - name: Fetching Lyrics
+      topicUid: Guides.Samples.FetchingLyrics
